@@ -1,0 +1,21 @@
+{
+    "name": "mathiasd88/webpaylizator",
+    "description": "A simple way to use the webpay payment service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mathias",
+            "email": "mathiasd88@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mathiasd88\\webpaylizator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    }
+}
